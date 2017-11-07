@@ -1,0 +1,182 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:linear
+LIBS:regul
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:conn
+LIBS:74xx
+LIBS:Relay
+LIBS:custom
+LIBS:vfd_driver-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MC34063A U?
+U 1 1 59FBF0CC
+P 5800 4250
+F 0 "U?" H 5725 4937 60  0000 C CNN
+F 1 "MC34063A" H 5725 4831 60  0000 C CNN
+F 2 "" H 5800 4250 60  0000 C CNN
+F 3 "" H 5800 4250 60  0000 C CNN
+	1    5800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +36V #PWR?
+U 1 1 59FBF10A
+P 7500 3500
+F 0 "#PWR?" H 7500 3350 50  0001 C CNN
+F 1 "+36V" H 7515 3673 50  0000 C CNN
+F 2 "" H 7500 3500 50  0001 C CNN
+F 3 "" H 7500 3500 50  0001 C CNN
+	1    7500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59FBF144
+P 4850 5100
+F 0 "#PWR?" H 4850 4850 50  0001 C CNN
+F 1 "GND" H 4855 4927 50  0000 C CNN
+F 2 "" H 4850 5100 50  0001 C CNN
+F 3 "" H 4850 5100 50  0001 C CNN
+	1    4850 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 59FBF189
+P 4550 4250
+F 0 "C?" H 4642 4296 50  0000 L CNN
+F 1 "10n" H 4642 4205 50  0000 L CNN
+F 2 "" H 4550 4250 50  0001 C CNN
+F 3 "" H 4550 4250 50  0001 C CNN
+	1    4550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59FBF21E
+P 4550 5100
+F 0 "#PWR?" H 4550 4850 50  0001 C CNN
+F 1 "GND" H 4555 4927 50  0000 C CNN
+F 2 "" H 4550 5100 50  0001 C CNN
+F 3 "" H 4550 5100 50  0001 C CNN
+	1    4550 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3300 4550 4150
+Wire Wire Line
+	4550 3850 5000 3850
+Wire Wire Line
+	5000 4550 4850 4550
+Wire Wire Line
+	4850 4550 4850 5100
+Wire Wire Line
+	4550 5100 4550 4350
+$Comp
+L R_Small R?
+U 1 1 59FBF2B4
+P 5750 3300
+F 0 "R?" V 5554 3300 50  0000 C CNN
+F 1 "0.22" V 5645 3300 50  0000 C CNN
+F 2 "" H 5750 3300 50  0001 C CNN
+F 3 "" H 5750 3300 50  0001 C CNN
+	1    5750 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3300 4550 3300
+Connection ~ 4550 3850
+Wire Wire Line
+	6450 3850 7100 3850
+Wire Wire Line
+	5850 3300 7100 3300
+$Comp
+L R_Small R?
+U 1 1 59FBF316
+P 6800 4050
+F 0 "R?" V 6604 4050 50  0000 C CNN
+F 1 "168" V 6695 4050 50  0000 C CNN
+F 2 "" H 6800 4050 50  0001 C CNN
+F 3 "" H 6800 4050 50  0001 C CNN
+	1    6800 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4050 6450 4050
+Wire Wire Line
+	7100 3300 7100 4050
+Wire Wire Line
+	7100 4050 6900 4050
+Connection ~ 7100 3850
+$Comp
+L L_Small L?
+U 1 1 59FBF403
+P 7500 3950
+F 0 "L?" V 7685 3950 50  0000 C CNN
+F 1 "170mH" V 7594 3950 50  0000 C CNN
+F 2 "" H 7500 3950 50  0001 C CNN
+F 3 "" H 7500 3950 50  0001 C CNN
+	1    7500 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_Schottky_Small D?
+U 1 1 59FBF5D9
+P 7750 4200
+F 0 "D?" V 7796 4132 50  0000 R CNN
+F 1 "D_Schottky_Small" V 7705 4132 50  0000 R CNN
+F 2 "" V 7750 4200 50  0001 C CNN
+F 3 "" V 7750 4200 50  0001 C CNN
+	1    7750 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D_Schottky_Small D?
+U 1 1 59FBF66E
+P 6150 4800
+F 0 "D?" H 6150 5005 50  0000 C CNN
+F 1 "D_Schottky_Small" H 6150 4914 50  0000 C CNN
+F 2 "" V 6150 4800 50  0001 C CNN
+F 3 "" V 6150 4800 50  0001 C CNN
+	1    6150 4800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
