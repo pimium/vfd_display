@@ -192,19 +192,19 @@ Wire Wire Line
 Connection ~ 4600 7450
 Wire Bus Line
 	2350 1150 2350 4950
-Text Label 2900 3350 0    60   ~ 0
+Text Label 2900 3950 0    60   ~ 0
 L4_1
-Text Label 2900 3450 0    60   ~ 0
+Text Label 2900 3850 0    60   ~ 0
 L4_2
-Text Label 2900 3550 0    60   ~ 0
+Text Label 2900 3750 0    60   ~ 0
 L4_3
 Text Label 2900 3650 0    60   ~ 0
 L4_4
-Text Label 2900 3750 0    60   ~ 0
+Text Label 2900 3550 0    60   ~ 0
 L4_5
-Text Label 2900 3850 0    60   ~ 0
+Text Label 2900 3450 0    60   ~ 0
 L4_6
-Text Label 2900 3950 0    60   ~ 0
+Text Label 2900 3350 0    60   ~ 0
 L4_7
 Text Label 2500 4050 0    60   ~ 0
 L5_1
