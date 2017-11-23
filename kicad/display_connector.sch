@@ -28,14 +28,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:conn
 LIBS:74xx
-LIBS:Relay
 LIBS:custom
 LIBS:vfd_driver-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -46,10 +45,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X69 J2
+L CONN_01X69 J6
 U 1 1 59FF3645
 P 5150 4150
-F 0 "J2" H 5228 4191 50  0000 L CNN
+F 0 "J6" H 5228 4191 50  0000 L CNN
 F 1 "Display" H 5228 4100 50  0000 L CNN
 F 2 "modules:vfd_FUTABA_24-SD-01GK_24x1" H 5150 5850 50  0001 C CNN
 F 3 "" H 5150 5850 50  0001 C CNN
@@ -60,9 +59,9 @@ NoConn ~ 4950 1050
 NoConn ~ 4950 1150
 NoConn ~ 4950 7250
 NoConn ~ 4950 7150
-Text HLabel 4250 850  0    60   Input ~ 0
-Fn
 Text HLabel 4250 7450 0    60   Input ~ 0
+Fn
+Text HLabel 4250 850  0    60   Input ~ 0
 Fp
 Entry Wire Line
 	4000 1150 4100 1250
@@ -192,20 +191,6 @@ Wire Wire Line
 Connection ~ 4600 7450
 Wire Bus Line
 	2350 1150 2350 4950
-Text Label 2900 3950 0    60   ~ 0
-L4_1
-Text Label 2900 3850 0    60   ~ 0
-L4_2
-Text Label 2900 3750 0    60   ~ 0
-L4_3
-Text Label 2900 3650 0    60   ~ 0
-L4_4
-Text Label 2900 3550 0    60   ~ 0
-L4_5
-Text Label 2900 3450 0    60   ~ 0
-L4_6
-Text Label 2900 3350 0    60   ~ 0
-L4_7
 Text Label 2500 4050 0    60   ~ 0
 L5_1
 Text Label 2500 4150 0    60   ~ 0
@@ -468,4 +453,18 @@ Wire Wire Line
 	2450 4550 4950 4550
 Wire Wire Line
 	2450 4650 4950 4650
+Text Label 2950 3350 0    60   ~ 0
+L4_1
+Text Label 2950 3450 0    60   ~ 0
+L4_2
+Text Label 2950 3550 0    60   ~ 0
+L4_3
+Text Label 2950 3650 0    60   ~ 0
+L4_4
+Text Label 2950 3750 0    60   ~ 0
+L4_5
+Text Label 2950 3850 0    60   ~ 0
+L4_6
+Text Label 2950 3950 0    60   ~ 0
+L4_7
 $EndSCHEMATC

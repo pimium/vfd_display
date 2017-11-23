@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1562)
+    (start_pass_no 21773)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -87,6 +87,22 @@
     )
   )
   (class "kicad_default"
+    "Net-(R8-Pad1)" "Net-(R9-Pad1)" "Net-(R10-Pad1)" "Net-(R11-Pad1)" "Net-(R12-Pad1)" "Net-(R13-Pad1)" "Net-(R14-Pad1)" "Net-(R15-Pad1)"
+    "Net-(C2-Pad1)" "/Sheet59FF2CCC/G3_8" "/Sheet59FF2CCC/G3_7" "/Sheet59FF2CCC/G3_6" "/Sheet59FF2CCC/G3_5" "/Sheet59FF2CCC/G3_4" "/Sheet59FF2CCC/G3_3" "/Sheet59FF2CCC/G3_2"
+    "/Sheet59FF2CCC/G3_1" "/Sheet59FF2CCC/G2_8" "/Sheet59FF2CCC/G2_7" "/Sheet59FF2CCC/G2_6" "/Sheet59FF2CCC/G2_5" "/Sheet59FF2CCC/G2_4" "/Sheet59FF2CCC/G2_3" "/Sheet59FF2CCC/G2_2"
+    "/Sheet59FF2CCC/G2_1" "/Sheet59FF2CCC/G1_8" "/Sheet59FF2CCC/G1_7" "/Sheet59FF2CCC/G1_6" "/Sheet59FF2CCC/G1_5" "/Sheet59FF2CCC/G1_4" "/Sheet59FF2CCC/G1_3" "/Sheet59FF2CCC/G1_2"
+    "/Sheet59FF2CCC/G1_1" "/Sheet59FF2CCC/L1_1" "/Sheet59FF2CCC/L1_2" "/Sheet59FF2CCC/L1_3" "/Sheet59FF2CCC/L1_4" "/Sheet59FF2CCC/L1_5" "/Sheet59FF2CCC/L1_6" "/Sheet59FF2CCC/L1_7"
+    "/Sheet59FF2CCC/L2_1" "/Sheet59FF2CCC/L2_2" "/Sheet59FF2CCC/L2_3" "/Sheet59FF2CCC/L2_4" "/Sheet59FF2CCC/L2_5" "/Sheet59FF2CCC/L2_6" "/Sheet59FF2CCC/L2_7" "/Sheet59FF2CCC/L3_1"
+    "/Sheet59FF2CCC/L3_2" "/Sheet59FF2CCC/L3_3" "/Sheet59FF2CCC/L3_4" "/Sheet59FF2CCC/L3_5" "/Sheet59FF2CCC/L3_6" "/Sheet59FF2CCC/L3_7" "/Sheet59FF2CCC/L4_7" "/Sheet59FF2CCC/L4_6"
+    "/Sheet59FF2CCC/L4_5" "/Sheet59FF2CCC/L4_4" "/Sheet59FF2CCC/L4_3" "/Sheet59FF2CCC/L4_2" "/Sheet59FF2CCC/L4_1" "/Sheet59FF2CCC/L5_1" "/Sheet59FF2CCC/L5_2" "/Sheet59FF2CCC/L5_3"
+    "/Sheet59FF2CCC/L5_4" "/Sheet59FF2CCC/L5_5" "/Sheet59FF2CCC/L5_6" "/Sheet59FF2CCC/L5_7" "Net-(R5-Pad2)" "Net-(R6-Pad2)" "Net-(U8-Pad7)" "Net-(U8-Pad6)"
+    "Net-(U8-Pad5)" "Net-(U8-Pad4)" "Net-(U8-Pad3)" "Net-(U8-Pad2)" "Net-(U8-Pad1)" "Net-(U14-Pad1)" "Net-(U14-Pad2)" "Net-(U14-Pad3)"
+    "Net-(U14-Pad4)" "Net-(U14-Pad5)" "Net-(U14-Pad6)" "Net-(U14-Pad7)" "Net-(U16-Pad7)" "Net-(U16-Pad6)" "Net-(U16-Pad5)" "Net-(U16-Pad4)"
+    "Net-(U16-Pad3)" "Net-(U16-Pad2)" "Net-(U16-Pad1)" "Net-(U18-Pad1)" "Net-(U18-Pad2)" "Net-(U18-Pad3)" "Net-(U18-Pad4)" "Net-(U18-Pad5)"
+    "Net-(U18-Pad6)" "Net-(U18-Pad7)" "Net-(U18-Pad15)" "Net-(U20-Pad1)" "Net-(U20-Pad2)" "Net-(U20-Pad3)" "Net-(U20-Pad4)" "Net-(U20-Pad5)"
+    "Net-(U20-Pad6)" "Net-(U20-Pad7)" "Net-(U20-Pad15)" "Net-(U22-Pad1)" "Net-(U22-Pad2)" "Net-(U22-Pad3)" "Net-(U22-Pad4)" "Net-(U22-Pad5)"
+    "Net-(U22-Pad6)" "Net-(U22-Pad7)" "Net-(U22-Pad15)" "Net-(J7-Pad2)" /Sheet5A12BB8F/SER /Sheet5A11F95F/SER /Sheet5A12BB9F/SER /Sheet5A12BBAF/SER
+    /Sheet5A13BBCF/SER /Sheet5A13BBBF/SER "/SER_POS"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -97,24 +113,10 @@
     )
   )
   (class signal
-    GND /reset VCC "Net-(C3-Pad1)" +36V /MISO /SCK /MOSI
-    "Net-(D1-Pad2)" "Net-(D2-Pad2)" "/RCLK_0" "/RCLK_1" "Net-(R2-Pad2)" "Net-(R3-Pad2)" /SRCLK /SRCLR
-    "/RCLK_2" "/RCLK_3" "/RCLK_4" "/RCLK_5" /SER "/RCLK_6" "/RCLK_7" "Net-(U2-Pad1)"
-    "Net-(U2-Pad2)" "Net-(U2-Pad3)" "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad6)" "Net-(U2-Pad7)" "Net-(U2-Pad15)" "Net-(U3-Pad1)"
-    "Net-(U3-Pad2)" "Net-(U3-Pad3)" "Net-(U3-Pad4)" "Net-(U3-Pad5)" "Net-(U3-Pad6)" "Net-(U3-Pad7)" "Net-(U4-Pad1)" "Net-(U4-Pad2)"
-    "Net-(U4-Pad3)" "Net-(U4-Pad4)" "Net-(U4-Pad5)" "Net-(U4-Pad6)" "Net-(U4-Pad7)" "Net-(U5-Pad1)" "Net-(U5-Pad2)" "Net-(U5-Pad3)"
-    "Net-(U5-Pad4)" "Net-(U5-Pad5)" "Net-(U5-Pad6)" "Net-(U5-Pad7)" /G13 /G14 /G15 /G16
-    /G17 /G18 /L11 /L12 /L13 /L14 /L15 /L16
-    /L17 /L21 /L22 /L23 /L24 /L25 /L26 /L27
-    /L41 /L42 /L43 /L44 /L45 /L46 /L47 "Net-(U10-Pad1)"
-    "Net-(U10-Pad2)" "Net-(U10-Pad3)" "Net-(U10-Pad4)" "Net-(U10-Pad5)" "Net-(U10-Pad6)" "Net-(U10-Pad7)" "Net-(U10-Pad15)" "Net-(U11-Pad15)"
-    "Net-(U11-Pad7)" "Net-(U11-Pad6)" "Net-(U11-Pad5)" "Net-(U11-Pad4)" "Net-(U11-Pad3)" "Net-(U11-Pad2)" "Net-(U11-Pad1)" "Net-(U12-Pad1)"
-    "Net-(U12-Pad2)" "Net-(U12-Pad3)" "Net-(U12-Pad4)" "Net-(U12-Pad5)" "Net-(U12-Pad6)" "Net-(U12-Pad7)" "Net-(U13-Pad1)" "Net-(U13-Pad2)"
-    "Net-(U13-Pad3)" "Net-(U13-Pad4)" "Net-(U13-Pad5)" "Net-(U13-Pad6)" "Net-(U13-Pad7)" /G21 /G22 /G23
-    /G24 /G25 /G26 /G27 /G28 /G38 /G37 /G36
-    /G35 /G34 /G33 /G32 /G31 /L31 /L32 /L33
-    /L34 /L35 /L36 /L37 /L51 /L52 /L53 /L54
-    /L55 /L56 /L57 /G12 /G11
+    GND /reset VCC +36V /MISO /SCK /MOSI "Net-(D1-Pad2)"
+    "Net-(D2-Pad2)" "/RCLK_0" /SRCLK /SRCLR "/RCLK_7" "Net-(U10-Pad1)" "Net-(U10-Pad2)" "Net-(U10-Pad3)"
+    "Net-(U10-Pad4)" "Net-(U10-Pad5)" "Net-(U10-Pad6)" "Net-(U10-Pad7)" "Net-(U12-Pad1)" "Net-(U12-Pad2)" "Net-(U12-Pad3)" "Net-(U12-Pad4)"
+    "Net-(U12-Pad5)" "Net-(U12-Pad6)" "Net-(U12-Pad7)"
     (clearance_class signal)
     (via_rule signal)
     (rule

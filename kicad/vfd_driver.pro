@@ -1,4 +1,4 @@
-update=Thu 02 Nov 2017 04:49:05 AM CET
+update=So 19 Nov 2017 07:13:24 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,4 @@ LibName26=contrib
 LibName27=valves
 LibName28=conn
 LibName29=74xx
-LibName30=Relay
-LibName31=/home/pimi/kicad/lib/custom
+LibName30=/home/pimi/kicad/lib/custom
