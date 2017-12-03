@@ -57,8 +57,6 @@ F 3 "" H 5150 5850 50  0001 C CNN
 $EndComp
 NoConn ~ 4950 1050
 NoConn ~ 4950 1150
-NoConn ~ 4950 7250
-NoConn ~ 4950 7150
 Text HLabel 4250 7450 0    60   Input ~ 0
 Fn
 Text HLabel 4250 850  0    60   Input ~ 0
@@ -467,4 +465,19 @@ Text Label 2950 3850 0    60   ~ 0
 L4_6
 Text Label 2950 3950 0    60   ~ 0
 L4_7
+Wire Wire Line
+	4950 7150 4950 7250
+Wire Wire Line
+	4950 7250 4250 7250
+$Comp
+L +36V #PWR?
+U 1 1 5A18F7C8
+P 4250 7250
+F 0 "#PWR?" H 4250 7100 50  0001 C CNN
+F 1 "+36V" H 4250 7390 50  0000 C CNN
+F 2 "" H 4250 7250 50  0001 C CNN
+F 3 "" H 4250 7250 50  0001 C CNN
+	1    4250 7250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
